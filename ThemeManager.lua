@@ -9,7 +9,6 @@ local HttpService: HttpService = cloneref(game:GetService("HttpService"))
 local isfolder, isfile, listfiles = isfolder, isfile, listfiles
 
 if typeof(clonefunction) == "function" then
-    -- Fix is_____ functions for shitsploits, those functions should never error, only return a boolean.
 
     local
         isfolder_copy,
@@ -42,7 +41,6 @@ local ThemeManager = {}
 do
     local ThemeFields = { "FontColor", "MainColor", "AccentColor", "BackgroundColor", "OutlineColor" }
     ThemeManager.Folder = "ObsidianLibSettings"
-    -- if not isfolder(ThemeManager.Folder) then makefolder(ThemeManager.Folder) end
 
     ThemeManager.Library = nil
     ThemeManager.AppliedToTab = false
