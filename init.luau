@@ -1,4 +1,4 @@
-local ObsidianTypes = require("./Ilovetadc/Library.d")
+local Ker0Types = require("./Ilovetadc/Library.d")
 
 return {
     Library = (require("./Ilovetadc/Library") :: any) :: Ker0Types.Library,
