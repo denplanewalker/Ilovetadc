@@ -49,7 +49,7 @@ do
     ThemeManager.BuiltInThemes = {
         ["Default"] = {
             1,
-            { FontColor = "ffffff", MainColor = "191919", AccentColor = "7d55ff", BackgroundColor = "0f0f0f", OutlineColor = "282828" },
+            { FontColor = "ffffff", MainColor = "000000", AccentColor = "#0000ff", BackgroundColor = "000000", OutlineColor = "141414" },
         },
         ["BBot"] = {
             2,
@@ -367,7 +367,7 @@ do
         groupbox:AddLabel("Font color"):AddColorPicker("FontColor", { Default = self.Library.Scheme.FontColor })
         groupbox:AddDropdown("FontFace", {
             Text = "Font Face",
-            Default = "Code",
+            Default = "Jura",
             Values = { "BuilderSans", "Code", "Fantasy", "Gotham", "Jura", "Roboto", "RobotoMono", "SourceSans" },
         })
 
@@ -509,3 +509,6 @@ end
 
 getgenv().ObsidianThemeManager = ThemeManager
 return ThemeManager
+
+
+                
