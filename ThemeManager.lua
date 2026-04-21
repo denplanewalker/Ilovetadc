@@ -82,7 +82,7 @@ do
         
         ["AmongusHook"] = {
             9,
-            { FontColor = "#FFFFFF", MainColor = "#292929", AccentColor = "#ff3200", BackgroundColor = "#292929", OutlineColor = "#000000" }
+            { FontColor = "#FFFFFF", MainColor = "#292929", AccentColor = "#ff0000", BackgroundColor = "#292929", OutlineColor = "#000000" }
         },
     }
 
