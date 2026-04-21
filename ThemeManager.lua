@@ -53,7 +53,7 @@ do
         },
         ["PornHub"] = {
             2,
-            { FontColor = "#FFFFFF", MainColor = "#1A1A1A", AccentColor = "#FF9000", BackgroundColor = "#0D0D0D", OutlineColor = "#2A2A2A" },
+            { FontColor = "#FFFFFF", MainColor = "#1A1A1A", AccentColor = "#ED760E", BackgroundColor = "#0D0D0D", OutlineColor = "#2A2A2A" },
         },
         ["AV∅X"] = {
             3,
