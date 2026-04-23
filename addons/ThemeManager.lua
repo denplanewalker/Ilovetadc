@@ -47,9 +47,9 @@ do
     ThemeManager.Library = nil
     ThemeManager.AppliedToTab = false
     ThemeManager.BuiltInThemes = {
-        ["KER0"] = {
-            1,
-            { FontColor = "ffffff", MainColor = "#0A0A0A", AccentColor = "#39FF14", BackgroundColor = "#000000", OutlineColor = "#1A1A1A" },
+        ["ZEX0"] = {
+            11,
+            { FontColor = "#FFFFFF", MainColor = "#050505", AccentColor = "#FF0033", BackgroundColor = "#000000", OutlineColor = "#121212" }
         },
         ["PornHub"] = {
             2,
@@ -86,9 +86,9 @@ do
             { FontColor = "#FFFFFF", MainColor = "#0E1624", AccentColor = "#00F2FF", BackgroundColor = "#0A0F1A", OutlineColor = "#1F2A3A" },
         },
         
-        ["ZEX0"] = {
-            11,
-            { FontColor = "#FFFFFF", MainColor = "#050505", AccentColor = "#FF0033", BackgroundColor = "#000000", OutlineColor = "#121212" }
+        ["KER0"] = {
+            1,
+            { FontColor = "ffffff", MainColor = "#0A0A0A", AccentColor = "#39FF14", BackgroundColor = "#000000", OutlineColor = "#1A1A1A" },
         },
     }
 
