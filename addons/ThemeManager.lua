@@ -53,7 +53,7 @@ do
         },
         ["PornHub"] = {
             2,
-            { FontColor = "#FFFFFF", MainColor = "#1A1A1A", AccentColor = "#FF9000", BackgroundColor = "#0D0D0D", OutlineColor = "#2A2A2A" },
+            { FontColor = "#FFFFFF", MainColor = "#1A1A1A", AccentColor = "#ED760E", BackgroundColor = "#0D0D0D", OutlineColor = "#2A2A2A" },
         },
         ["AV∅X"] = {
             3,
@@ -82,7 +82,7 @@ do
         
         ["AmongusHook"] = {
             9,
-            { FontColor = "#FFFFFF", MainColor = "#292929", AccentColor = "#ff3200", BackgroundColor = "#292929", OutlineColor = "#000000" }
+            { FontColor = "#FFFFFF", MainColor = "#292929", AccentColor = "#ff0000", BackgroundColor = "#292929", OutlineColor = "#000000" }
         },
     }
 
@@ -473,4 +473,4 @@ do
 end
 
 getgenv().ObsidianThemeManager = ThemeManager
-return ThemeManager 
+return ThemeManager
