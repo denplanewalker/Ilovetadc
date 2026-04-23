@@ -47,17 +47,13 @@ do
     ThemeManager.Library = nil
     ThemeManager.AppliedToTab = false
     ThemeManager.BuiltInThemes = {
-        ["Pasta.land"] = {
+        ["KER0"] = {
             1,
-            { FontColor = "ffffff", MainColor = "#000000", AccentColor = "#0000ff", BackgroundColor = "#000000", OutlineColor = "#141414" },
+            { FontColor = "ffffff", MainColor = "#0A0A0A", AccentColor = "#39FF14", BackgroundColor = "#000000", OutlineColor = "#1A1A1A" },
         },
         ["PornHub"] = {
             2,
             { FontColor = "#FFFFFF", MainColor = "#1A1A1A", AccentColor = "#ED760E", BackgroundColor = "#0D0D0D", OutlineColor = "#2A2A2A" },
-        },
-        ["AV∅X"] = {
-            3,
-            { FontColor = "ffffff", MainColor = "#000000", AccentColor = "#ff0000", BackgroundColor = "#000000", OutlineColor = "#141414" },
         },
         ["Fatality"] = {
             4,
@@ -83,6 +79,16 @@ do
         ["AmongusHook"] = {
             9,
             { FontColor = "#FFFFFF", MainColor = "#292929", AccentColor = "#ff0000", BackgroundColor = "#292929", OutlineColor = "#000000" }
+        },
+        
+        ["LUX0"] = {
+            10,
+            { FontColor = "#FFFFFF", MainColor = "#0E1624", AccentColor = "#00F2FF", BackgroundColor = "#0A0F1A", OutlineColor = "#1F2A3A" },
+        },
+        
+        ["ZEX0"] = {
+            11,
+            { FontColor = "#FFFFFF", MainColor = "#050505", AccentColor = "#FF0033", BackgroundColor = "#000000", OutlineColor = "#121212" }
         },
     }
 
