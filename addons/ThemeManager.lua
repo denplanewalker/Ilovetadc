@@ -9,7 +9,6 @@ local HttpService: HttpService = cloneref(game:GetService("HttpService"))
 local isfolder, isfile, listfiles = isfolder, isfile, listfiles
 
 if typeof(clonefunction) == "function" then
-    -- Fix is_____ functions for shitsploits, those functions should never error, only return a boolean.
 
     local
         isfolder_copy,
@@ -90,9 +89,9 @@ do
             { FontColor = "#FFFFFF", MainColor = "#0E1624", AccentColor = "#00F2FF", BackgroundColor = "#0A0F1A", OutlineColor = "#1F2A3A" },
         },
         
-        ["ZEX0"] = {
-            11,
-            { FontColor = "#FFFFFF", MainColor = "#050505", AccentColor = "#FF0033", BackgroundColor = "#000000", OutlineColor = "#121212" }
+        ["Premium V2"] = {
+            12,
+            { FontColor = "#F0F0F0", MainColor = "#16161E", AccentColor = "#A050FF", BackgroundColor = "#0F0F14", OutlineColor = "#252530" }
         },
     }
 
