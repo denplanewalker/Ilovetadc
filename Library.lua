@@ -214,20 +214,20 @@ local Library = {
     OriginalMinSize = Vector2.new(480, 360),
     MinSize = Vector2.new(480, 360),
     DPIScale = 1,
-    CornerRadius = 4,
+    CornerRadius = 10,
     CornerRadiusDropdown = false, -- Temporary
 
     IsLightTheme = false,
     Scheme = {
-        BackgroundColor = Color3.fromRGB(15, 15, 15),
-        MainColor = Color3.fromRGB(25, 25, 25),
-        AccentColor = Color3.fromRGB(125, 85, 255),
-        OutlineColor = Color3.fromRGB(40, 40, 40),
-        FontColor = Color3.new(1, 1, 1),
-        Font = Font.fromEnum(Enum.Font.Code),
+        BackgroundColor = Color3.fromRGB(15, 15, 20),
+        MainColor = Color3.fromRGB(22, 22, 30),
+        AccentColor = Color3.fromRGB(160, 80, 255),
+        OutlineColor = Color3.fromRGB(37, 37, 48),
+        FontColor = Color3.fromRGB(240, 240, 240),
+        Font = Font.fromEnum(Enum.Font.GothamMedium),
 
-        RedColor = Color3.fromRGB(255, 50, 50),
-        DestructiveColor = Color3.fromRGB(220, 38, 38),
+        RedColor = Color3.fromRGB(255, 75, 75),
+        DestructiveColor = Color3.fromRGB(255, 60, 60),
         DarkColor = Color3.new(0, 0, 0),
         WhiteColor = Color3.new(1, 1, 1),
     },
@@ -315,7 +315,7 @@ local Templates = {
         CornerRadius = 4,
         NotifySide = "Right",
         ShowCustomCursor = true,
-        Font = Enum.Font.Code,
+        Font = Enum.Font.GothamMedium,
         ToggleKeybind = Enum.KeyCode.RightControl,
         
         ShowMobileButtons = true,
@@ -1514,7 +1514,8 @@ function Library:AddOutline(Frame: GuiObject)
     })
     local ShadowStroke = New("UIStroke", {
         Color = "DarkColor",
-        Thickness = 1.5,
+        Thickness = 3,
+        Transparency = 0.7,
         ZIndex = 1,
         Parent = Frame,
     })
@@ -1794,7 +1795,7 @@ function Library:AddContextMenu(
         table.insert(
             Library.Corners,
             New("UICorner", {
-                CornerRadius = UDim.new(0, Library.CornerRadius / 2),
+                CornerRadius = UDim.new(0, 8),
                 Parent = Menu,
             })
         )
@@ -1942,7 +1943,7 @@ New("UIStroke", {
 table.insert(
     Library.Corners,
     New("UICorner", {
-        CornerRadius = UDim.new(0, Library.CornerRadius / 2),
+        CornerRadius = UDim.new(0, 8),
         Parent = TooltipLabel,
     })
 )
