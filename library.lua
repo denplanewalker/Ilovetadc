@@ -3875,17 +3875,6 @@ function Library:CreateWindow(...)
     Library.PlayerRealName = string.lower(LocalPlayer.Name);
     Library.PlayerNameLabel = nil;
 
-    local SubscriptionLabel = Library:CreateLabel({
-        AnchorPoint = Vector2.new(1, 0);
-        Position = UDim2.new(1, -10, 0, 2);
-        Size = UDim2.new(0, 300, 0, 15);
-        Text = 'upd days: ...';
-        TextXAlignment = Enum.TextXAlignment.Right;
-        TextSize = 13;
-        ZIndex = 4;
-        Parent = Outer;
-    });
-
     local SecondImage = Library:Create('ImageLabel', {
         Name = 'SecondImage';
         BackgroundTransparency = 1;
