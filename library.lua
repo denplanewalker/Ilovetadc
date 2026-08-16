@@ -3886,8 +3886,6 @@ function Library:CreateWindow(...)
         Parent = Outer;
     });
 
-    Library.SubscriptionLabel = SubscriptionLabel;
-
     local SecondImage = Library:Create('ImageLabel', {
         Name = 'SecondImage';
         BackgroundTransparency = 1;
