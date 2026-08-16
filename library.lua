@@ -3888,17 +3888,6 @@ function Library:CreateWindow(...)
 
     Library.SubscriptionLabel = SubscriptionLabel;
 
-    Library:RefreshSubscriptionLabel();
-
-    task.spawn(function()
-        while SubscriptionLabel.Parent do
-            task.wait(60);
-            if SubscriptionLabel.Parent then
-                Library:RefreshSubscriptionLabel();
-            end;
-        end;
-    end);
-
     local SecondImage = Library:Create('ImageLabel', {
         Name = 'SecondImage';
         BackgroundTransparency = 1;
