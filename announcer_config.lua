@@ -1,6 +1,6 @@
 return {
     folder  = "QuakeSounds",
-    baseUrl = "https://raw.githubusercontent.com/denplanewalker/Ilovetadc/main/QuakeSounds",
+    baseUrl = "https://raw.githubusercontent.com/denplanewalker/Ilovetadc/main/QuakeSounds/",
 
     Sounds = {
         firstblood     = "first_blood.mp3",
